@@ -54,7 +54,7 @@ export default class TaskList extends Vue {
   public jwttoken: string | boolean = false;
 
   created() {
-    this.jwttoken = Vue.$keycloak.token;
+    this.jwttoken = Vue.prototype.$keycloak.token;
     this.isServiceFLowEnabled = true;
   }
 }
