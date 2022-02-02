@@ -14,6 +14,7 @@
       :getTaskId="getTaskId"
       container-height="140"
       taskSortBy="dueDate"
+      formIOJwtSecret="--- change me now ---"
       taskSortOrder="asc"
       webSocketEncryptkey="giert989jkwrgb@DR55"
       v-if="isServiceFLowEnabled"
