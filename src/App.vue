@@ -11,6 +11,6 @@
 body,
 html {
   padding-right: 0px !important;
-  overflow-y: hidden !important;
+  // overflow removed
 }
 </style>
